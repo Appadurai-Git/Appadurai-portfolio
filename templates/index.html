@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Appadurai M — Backend Developer &amp; Data Analyst</title>
+<meta name="description" content="Portfolio of Appadurai M — Backend Developer and Data Analyst working with Python, SQL, Django and Power BI.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-row">
+    <a href="#top" class="mark">AM</a>
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="btn btn-ghost header-cta" href="/resume">Download resume</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero wrap">
+    <div class="hero-text">
+      <p class="hero-kicker">Backend developer &amp; data analyst</p>
+      <h1>Appadurai M builds backend systems and reads the data behind them.</h1>
+      <p class="hero-lede">
+        I build REST APIs and relational databases with Python, then turn that same data into
+        Power BI dashboards decision-makers actually use. Based in Tirunelveli, Tamil Nadu —
+        graduating 2026.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View projects</a>
+        <a href="#contact" class="btn btn-ghost">Get in touch</a>
+      </div>
+      <dl class="hero-stats">
+        <div><dt>2</dt><dd>Featured projects</dd></div>
+        <div><dt>7.0</dt><dd>CGPA, CSE</dd></div>
+        <div><dt>2026</dt><dd>Graduating</dd></div>
+      </dl>
+    </div>
+
+    <div class="hero-console" aria-hidden="true">
+      <div class="console-bar">
+        <span class="console-dot"></span><span class="console-dot"></span><span class="console-dot"></span>
+        <span class="console-title">skills.sql</span>
+      </div>
+      <pre class="console-body"><code id="consoleCode"></code><span class="caret"></span></pre>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section wrap">
+    <div class="section-head">
+      <h2>About</h2>
+    </div>
+    <div class="about-grid">
+      <p class="about-copy">
+        I'm a final-year Computer Science engineering student who works across the stack that
+        turns raw data into a decision: Python and Django on the backend, MySQL and SQLite for
+        storage, and Power BI on top for the people who need the answer, not the query. My
+        capstone project shipped a full employee-management system with role-based access
+        control; my personal projects range from a clinical-trial analytics dashboard to a
+        salary-prediction model built with scikit-learn.
+      </p>
+      <ul class="about-facts">
+        <li><span>Location</span><span>Tirunelveli, Tamil Nadu, India</span></li>
+        <li><span>Email</span><span><a href="mailto:appadurai491@gmail.com">appadurai491@gmail.com</a></span></li>
+        <li><span>Phone</span><span>+91 8637605252</span></li>
+        <li><span>Focus</span><span>Backend APIs &amp; data-driven dashboards</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section wrap">
+    <div class="section-head">
+      <h2>Skills</h2>
+    </div>
+    <table class="skills-table">
+      <tbody>
+        <tr><th>Languages</th><td>Python, SQL</td></tr>
+        <tr><th>Backend</th><td>REST Framework, JWT Authentication, Django</td></tr>
+        <tr><th>Database</th><td>MySQL, SQLite, Database Design</td></tr>
+        <tr><th>Data analysis</th><td>Power BI, Power BI Service, Pandas, NumPy, Excel</td></tr>
+        <tr><th>Concepts</th><td>OOP, CRUD, REST APIs, SDLC, Agile, Scrum</td></tr>
+        <tr><th>Tools</th><td>Git, GitHub, VS Code, Jupyter Notebook, Google Colab</td></tr>
+        <tr><th>Deployment</th><td>Render, Vercel</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section wrap">
+    <div class="section-head">
+      <h2>Experience</h2>
+    </div>
+    <div class="ledger">
+      <div class="ledger-row">
+        <div class="ledger-when">
+          <span class="ledger-date">May 2024 — Jul 2024</span>
+        </div>
+        <div class="ledger-body">
+          <h3>Python developer, capstone project</h3>
+          <p class="ledger-org">Nxtlogic Software Solutions — Employee Management &amp; Task Tracking System</p>
+          <ul>
+            <li>Built a full-stack web app in Flask and MySQL to manage employee records and task assignments.</li>
+            <li>Implemented authentication and role-based access control to secure application data.</li>
+            <li>Built CRUD functionality for employee and task management.</li>
+            <li>Designed dashboards to track task status and employee performance in real time.</li>
+            <li>Used Postman for API testing and GitHub for version control.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section wrap">
+    <div class="section-head">
+      <h2>Projects</h2>
+    </div>
+
+    <article class="project-row">
+      <div class="project-stack">
+        <span>Power BI</span>
+        <span>Power BI Service</span>
+        <span>Excel</span>
+      </div>
+      <div class="project-body">
+        <h3>Clinical trial analytics &amp; business intelligence platform</h3>
+        <p>
+          Power BI dashboards and reports analyzing clinical trial data to support business
+          decisions — interactive views of trial status, success rate, enrollment trends, and
+          sponsor distribution, with report generation automated and insights exported to Excel
+          for stakeholder review, then published to Power BI Service for secure, shared access.
+        </p>
+        <p class="project-impact">Impact: helped healthcare and pharma teams monitor KPIs and make data-driven decisions.</p>
+      </div>
+    </article>
+
+    <article class="project-row">
+      <div class="project-stack">
+        <span>Python</span>
+        <span>Pandas / NumPy</span>
+        <span>Scikit-learn</span>
+        <span>Streamlit</span>
+      </div>
+      <div class="project-body">
+        <h3>Salary intelligence prediction system</h3>
+        <p>
+          A machine learning application predicting employee salaries from key attributes.
+          Involved exploratory data analysis, cleaning, and feature engineering, then training
+          and evaluating several regression models to pick the best performer, delivered through
+          an interactive Streamlit app for real-time predictions.
+        </p>
+        <p class="project-impact">Impact: helped individuals and organizations estimate salary ranges for HR decisions.</p>
+      </div>
+    </article>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section wrap">
+    <div class="section-head">
+      <h2>Education</h2>
+    </div>
+    <div class="ledger">
+      <div class="ledger-row">
+        <div class="ledger-when"><span class="ledger-date">2022 — 2026</span></div>
+        <div class="ledger-body">
+          <h3>B.E., Computer Science and Engineering</h3>
+          <p class="ledger-org">Francis Xavier's Engineering College, Tirunelveli — CGPA 7.0</p>
+        </div>
+      </div>
+      <div class="ledger-row">
+        <div class="ledger-when"><span class="ledger-date">2021 — 2022</span></div>
+        <div class="ledger-body">
+          <h3>Higher secondary education (12th grade)</h3>
+          <p class="ledger-org">Sri Jayendra Golden Jubilee School — 60%</p>
+        </div>
+      </div>
+      <div class="ledger-row">
+        <div class="ledger-when"><span class="ledger-date">2019 — 2020</span></div>
+        <div class="ledger-body">
+          <h3>Secondary education (10th grade)</h3>
+          <p class="ledger-org">Sri Jayendra Golden Jubilee School — 55%</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="interests">
+      <div>
+        <span class="interests-label">Interests</span>
+        <p>Cloud technologies, backend development, data analysis, business intelligence</p>
+      </div>
+      <div>
+        <span class="interests-label">Hobbies</span>
+        <p>Photography, photo &amp; video editing, tech exploration, continuous learning</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section wrap">
+    <div class="section-head">
+      <h2>Get in touch</h2>
+      <p class="section-sub">Open to backend developer and data analyst roles.</p>
+    </div>
+
+    <form id="contactForm" class="contact-form" novalidate>
+      <div class="field">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" autocomplete="name" required>
+        <span class="field-error" id="nameError"></span>
+      </div>
+      <div class="field">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" autocomplete="email" required>
+        <span class="field-error" id="emailError"></span>
+      </div>
+      <div class="field field-full">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        <span class="field-error" id="messageError"></span>
+      </div>
+      <div class="field-full form-footer">
+        <button type="submit" class="btn btn-primary" id="submitBtn">Send message</button>
+        <span class="form-status" id="formStatus" role="status" aria-live="polite"></span>
+      </div>
+    </form>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-row">
+    <p>&copy; <span id="year"></span> Appadurai M.</p>
+    <div class="footer-links">
+      <a href="mailto:appadurai491@gmail.com">Email</a>
+      <a href="tel:+918637605252">Phone</a>
+      <a href="/resume">Resume</a>
+    </div>
+  </div>
+</footer>
+
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
